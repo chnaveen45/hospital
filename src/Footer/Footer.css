@@ -1,0 +1,39 @@
+
+.footer {
+    background-color:white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  .footer-section ul {
+    list-style: none;
+  }
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  @media (min-width: 768px) {
+    .main-content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .appointment-section {
+      flex-direction: row;
+      text-align: left;
+    }
+    .appointment-text {
+      max-width: 50%;
+    }
+    .doctor-image {
+      max-width: 50%;
+    }
+  }
+  
