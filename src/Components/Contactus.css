@@ -1,0 +1,206 @@
+.contact-us-container-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .image-section {
+    flex: 1;
+    width: 50%;
+    display: inline;
+  }
+  
+  .contactus1 {
+    width: 700px;
+    height: 550px;
+    border-bottom-right-radius: 30px;
+    object-fit: cover;
+    float:left;
+  }
+  
+  .text-section {
+    flex: 0.5;
+    /* padding: 50px; */
+    line-height: 30px;
+    padding-left: 50px;
+  }
+  
+  .text-section h1 {
+    font-size: 40px;
+    font-style: Archivo;
+    font-weight: 400;
+    width: 201px;
+    height: 44px;
+    top: 202px;
+    left: 831px;
+  }
+  
+  .text-section h2 {
+    font-size: 36px;
+    font-style: Archivo;
+    font-weight: 800;
+    margin-bottom: 10px;
+    width: 541px;
+    height: 39px;
+    top: 255px;
+    left: 831px;
+    gap: 0px;
+  }
+  
+  .text-section p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.11px;
+    text-align: left;
+    color: black;
+  }   
+  
+  .contact-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .text-section-1 {
+    flex: 1;
+    color: black;
+    padding-left: 80px;
+  }
+  
+  .text-section-1 h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .text-section-1 p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .text-section-1 strong {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contactus2 {
+    width: 650px;
+    height: 508px;
+    top: 698px;
+    left: 749px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px; 
+    object-fit: cover;
+    float: right
+  }
+  
+  .contact-section-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px 60px 200px;
+  }
+  
+  .contact-section, .follow-section {
+    flex: 1;
+  }
+  
+  .contact-section h2, .follow-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p, .follow-section p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: hwb(240 22% 12%);
+  }
+  
+  a:hover {
+    color: rgb(105, 118, 233);
+  }
+  
+  .contact-info-container-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 100px 50px 100px;
+  }
+  
+  .contact-details, .contact-form {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgba(5, 0, 0, 0.3);
+    padding: 20px;
+    width: 30%;
+    height: 400px;
+  }
+  
+  .contact-details p {
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+  
+  .contact-form p {
+    position: absolute; 
+    padding-left: 100px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    padding-right: 5%;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    display: block;;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background: #0B026A70;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #105AF0; /* Optional: change background */
+  }
